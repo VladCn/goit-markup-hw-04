@@ -88,10 +88,17 @@ header {
     display: flex;
     align-items: center;
 }
+.nav-ul-li:hover{
+    fill: var(--hov-blue-color);
+}
 .icon-m10{
     margin-right: 10px;
-    fill: #2196F3;
+    fill:#757575;
 }
+/*.icon-m10:hover,*/
+/*.icon-m10:focus {*/
+/*    fill: var(--hov-blue-color);*/
+/*}*/
 .ul-mail {
     display: flex;
     margin-left: auto;
