@@ -84,7 +84,14 @@ header {
 .nav-ul-li:not(:last-child) {
     margin-right: 50px;
 }
-
+.nav-ul-li{
+    display: flex;
+    align-items: center;
+}
+.icon-m10{
+    margin-right: 10px;
+    fill: #2196F3;
+}
 .ul-mail {
     display: flex;
     margin-left: auto;
@@ -133,6 +140,7 @@ header {
 .info:hover,
 .info:focus {
     color: #2196F3;
+    fill: #2196F3;
 }
 
 /*main*/
