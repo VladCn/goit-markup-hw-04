@@ -101,6 +101,17 @@ header {
     display: flex;
     margin-left: auto;
 }
+.a-mail::before{
+    content: url(../images/envelope.svg);
+    margin-right: 10px;
+    align-items: center;
+}
+/*.a-mob::before{*/
+/*    content: url(../images/sprite.svg#icon-smartphone);*/
+/*    margin-right: 10px;*/
+/*    align-items: center;*/
+
+/*}*/
 
 /*END Flex Header*/
 .logo {
@@ -292,11 +303,7 @@ h2 {
     display: flex;
     fill: #AFB1B8;
 }
-.logo-link:hover,
-.logo-link:focus{
-    fill: white;
 
-}
 .a-logo-link{
     display: flex;
     border-radius: 50%;
@@ -304,17 +311,24 @@ h2 {
     height: 40px;
     align-items: center;
     justify-content: center;
+
 }
 .a-logo-link:hover,
 .a-logo-link:focus{
     background-color: #2196F3;
 }
+.a-logo-link:hover svg {
+    fill: #ffffff;
+}
+
+
 .proffesia {
     font-size: 16px;
     line-height: 1.18;
     /*text-align: center;*/
     letter-spacing: 0.03em;
     color: var(--back-grey-color);
+    margin-bottom: 16px;
 }
 
 /*=================================Porfolio.html==============================================*/
