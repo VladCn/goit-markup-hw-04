@@ -97,10 +97,6 @@ header {
 .icon-hov{
     fill:currentColor;
 }
-/*.icon-m10:hover,*/
-/*.icon-m10:focus {*/
-/*    fill: var(--hov-blue-color);*/
-/*}*/
 .ul-mail {
     display: flex;
     margin-left: auto;
@@ -153,6 +149,7 @@ header {
 
 /*main*/
 .osnovnaya {
+    background-image: url("../images/overlay.png"),url(../images/hero-back.jpg);
     background-color: #2F303A;
     max-width: 1600px;
     text-align: center;
