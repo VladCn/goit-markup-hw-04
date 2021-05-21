@@ -223,7 +223,6 @@ h3 {
     padding: 25px 100px ;
     background-color: #F5F4FA;
     border-radius: 5px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 30px;
 }
 .chem-mi-h3 {
@@ -284,7 +283,32 @@ h2 {
 .nasha-komanda-h3 {
     margin-bottom: 10px;
 }
+.div-logo-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-link{
+    display: flex;
+    fill: #AFB1B8;
+}
+.logo-link:hover,
+.logo-link:focus{
+    fill: white;
 
+}
+.a-logo-link{
+    display: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.a-logo-link:hover,
+.a-logo-link:focus{
+    background-color: #2196F3;
+}
 .proffesia {
     font-size: 16px;
     line-height: 1.18;
