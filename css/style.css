@@ -93,7 +93,9 @@ header {
 }
 .icon-m10{
     margin-right: 10px;
-    fill:#757575;
+}
+.icon-hov{
+    fill:currentColor;
 }
 /*.icon-m10:hover,*/
 /*.icon-m10:focus {*/
@@ -147,7 +149,6 @@ header {
 .info:hover,
 .info:focus {
     color: #2196F3;
-    fill: #2196F3;
 }
 
 /*main*/
