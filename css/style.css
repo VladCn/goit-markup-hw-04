@@ -256,10 +256,7 @@ h2 {
     padding-bottom: 94px;
     padding-top: 94px;
 }
-{/*.nasha-komanda-div{*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-}
+
 .nasha-komanda-ul {
     display: flex;
     flex-wrap: wrap;
@@ -320,8 +317,13 @@ h2 {
     margin-bottom: 16px;
 }
 /*=================================Klienti==============================================*/
-ul-klienti{
+.klienti{
+    padding: 94px;
+}
+
+.ul-klienti {
     display: flex;
+    justify-content: space-between;
 }
 .li-klienti{
     width: 170px;
@@ -334,15 +336,13 @@ ul-klienti{
     justify-content: center;
 }
 .li-klienti:hover svg {
-    fill: #ffffff;
-    background-color: #2196F3;
+    fill: var(--hov-blue-color);
 }
-/*.a-klienti:hover svg{*/
-/*    fill: red;*/
-/*    background-color:green;*/
-/*}*/
+.li-klienti:hover{
+    border-color: var(--hov-blue-color);
+}
 .a-klienti {
-    fill: red;
+    fill:#AFB1B8;
 }
 
 /*=================================Porfolio.html==============================================*/
