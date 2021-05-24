@@ -319,6 +319,27 @@ h2 {
     color: var(--back-grey-color);
     margin-bottom: 16px;
 }
+/*=================================Klienti==============================================*/
+ul-klienti{
+    display: flex;
+}
+.li-klienti{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-klienti:hover svg{
+    fill: red;
+    background-color:green;
+}
+.a-klienti {
+    fill: red;
+}
 
 /*=================================Porfolio.html==============================================*/
 
