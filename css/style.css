@@ -435,11 +435,16 @@ h2 {
 /*=============================FOOTER==========================================================*/
 footer {
     background-color: #2F303A;
-    padding: 60px 0;
+    padding: 60px 15px;
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .div-footer {
-    padding:0 15px;
+    margin-right: 70px;
 }
 
 .footer {
@@ -473,4 +478,15 @@ address {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+}
+.text-pris{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.foot-connect{
+    margin-top: 12px;
 }
