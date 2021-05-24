@@ -297,7 +297,6 @@ h2 {
     height: 40px;
     align-items: center;
     justify-content: center;
-
 }
 .a-logo-link:hover,
 .a-logo-link:focus{
@@ -489,4 +488,25 @@ address {
 }
 .foot-connect{
     margin-top: 12px;
+}
+.a-logo-foot{
+    display: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #757575;
+}
+.a-logo-foot:hover,
+.a-logo-foot:focus{
+    background-color: #2196F3;
+}
+.a-logo-foot:hover svg {
+    fill: var(--ther-white-color);
+}
+.a-logo-foot-svg{
+    display: flex;
+    fill: var(--ther-white-color);
+
 }
