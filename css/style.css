@@ -432,14 +432,15 @@ h2 {
 }
 
 /*=============================FOOTER==========================================================*/
-footer {
+footer{
     background-color: #2F303A;
+}
+.foot {
     padding: 60px 15px;
     display: flex;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .div-footer {
@@ -479,12 +480,13 @@ address {
     color: #2196F3;
 }
 .text-pris{
-    color: #ffffff;
+    color: var(--ther-white-color);
     font-size: 14px;
     font-weight: bold;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .foot-connect{
     margin-top: 12px;
@@ -496,11 +498,11 @@ address {
     height: 40px;
     align-items: center;
     justify-content: center;
-    background-color: #757575;
+    background: rgba(255, 255, 255, 0.1);
 }
 .a-logo-foot:hover,
 .a-logo-foot:focus{
-    background-color: #2196F3;
+    background-color: var(--hov-blue-color);
 }
 .a-logo-foot:hover svg {
     fill: var(--ther-white-color);
@@ -508,5 +510,7 @@ address {
 .a-logo-foot-svg{
     display: flex;
     fill: var(--ther-white-color);
-
+}
+.foot-li:not(:last-child){
+    margin-right: 10px;
 }
