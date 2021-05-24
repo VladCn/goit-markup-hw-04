@@ -87,6 +87,7 @@ header {
 .nav-ul-li{
     display: flex;
     align-items: center;
+    fill:currentColor;
 }
 .nav-ul-li:hover{
     fill: var(--hov-blue-color);
@@ -94,24 +95,12 @@ header {
 .icon-m10{
     margin-right: 10px;
 }
-.icon-hov{
-    fill:currentColor;
-}
+
 .ul-mail {
     display: flex;
     margin-left: auto;
 }
-.a-mail::before{
-    content: url(../images/envelope.svg);
-    margin-right: 10px;
-    align-items: center;
-}
-/*.a-mob::before{*/
-/*    content: url(../images/sprite.svg#icon-smartphone);*/
-/*    margin-right: 10px;*/
-/*    align-items: center;*/
 
-/*}*/
 
 /*END Flex Header*/
 .logo {
