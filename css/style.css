@@ -333,10 +333,14 @@ ul-klienti{
     align-items: center;
     justify-content: center;
 }
-.a-klienti:hover svg{
-    fill: red;
-    background-color:green;
+.li-klienti:hover svg {
+    fill: #ffffff;
+    background-color: #2196F3;
 }
+/*.a-klienti:hover svg{*/
+/*    fill: red;*/
+/*    background-color:green;*/
+/*}*/
 .a-klienti {
     fill: red;
 }
