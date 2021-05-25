@@ -509,8 +509,12 @@ address {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.foot-connect{
-    margin-top: 12px;
+/*.foot-connect{*/
+/*    margin-top: 12px;*/
+/*}*/
+.foot-all-div{
+    display: flex;
+    align-items: baseline;
 }
 .a-logo-foot{
     display: flex;
