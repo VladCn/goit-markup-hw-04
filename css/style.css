@@ -219,11 +219,17 @@ h3 {
 .chem-mi-li:not(:last-child) {
     margin-right: 30px;
 }
+
 .chem-mi-li-svg{
-    padding: 25px 100px ;
+    /*padding: 25px 100px ;*/
+    width: 270px;
+    height: 120px;
     background-color: #F5F4FA;
     border-radius: 5px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .chem-mi-h3 {
     text-transform: var(--upper-text-transform);
