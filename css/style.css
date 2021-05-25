@@ -149,7 +149,7 @@ header {
 
 /*main*/
 .osnovnaya {
-    background-image: url("../images/overlay.png"),url(../images/hero-back.jpg);
+    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(../images/hero-back.jpg);
     background-color: #2F303A;
     max-width: 1600px;
     text-align: center;
